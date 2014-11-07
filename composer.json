@@ -1,0 +1,8 @@
+{
+    "require": {
+        "zetacomponents/console-tools": "@dev"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
