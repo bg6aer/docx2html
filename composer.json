@@ -1,6 +1,18 @@
 {
+    "name": "charlycoste/docx2html",
+    "description": "A personal PHP script to generate HTML from crappy docx files",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "Charles-Edouard Coste",
+            "email": "cc@synap.fr"
+        }
+    ],
     "require": {
-        "zetacomponents/console-tools": "@dev"
+        "zetacomponents/console-tools": "1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.5"
     },
     "autoload": {
         "classmap": ["src/"]
