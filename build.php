@@ -2,7 +2,6 @@
 $a = new Phar('docx2html.phar');
 
 $a->addFile('docx2html.xslt');
-$a->addFile('html.php');
 
 $a->setStub('#!/usr/bin/env php
 <?php
